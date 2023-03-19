@@ -6,6 +6,7 @@
    margin:0px;
    padding: 0px;
    font-family: 'Poppins', sans-serif;
+   overflow: hidden;
  }
 
  .image {
@@ -120,7 +121,9 @@
 
 
  }
-
+ .navbar{
+  visibility: hidden;
+}
  .divs {
    display: flex;
    flex-direction: column;
@@ -206,4 +209,15 @@
 
  .description a {
    color: rgb(129, 177, 137)
+ }
+
+  
+
+ @media only screen and (max-width: 600px)  {
+  .body{
+      flex-flow: column;
+      height: auto;
+      text-align: center;
+      
+  }
  }
