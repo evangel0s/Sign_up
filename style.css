@@ -1,11 +1,11 @@
  body {
-
    display: flex;
    flex-direction: row;
    width: 100vw;
    height: 100vh;
-   margin: 0;
-   padding: 0;
+   margin:0px;
+   padding: 0px;
+   font-family: 'Poppins', sans-serif;
  }
 
  .image {
@@ -14,29 +14,196 @@
    background-repeat: no-repeat;
    width: 40vw;
    height: 100vh;
-   color: white;
-   font-family: 'Josefin Slab', serif;
+   font-family: 'Poppins', sans-serif;
+   display: flex;
+   flex-direction: column;
+   margin: 0px;
+   padding: 0px;
+
  }
+
+ .description {
+   display: flex;
+   justify-content: center;
+   align-items: end;
+   margin-top: 500px;
+
+
+ }
+
+ .imglogo {
+   position: relative;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   height: 20vh;
+   margin-top: 200px;
+   width: 100vw;
+ }
+
+ .imglogo h2 {
+   color: rgb(197, 196, 196);
+   font-size: 200%;
+   font-weight: 1s;
+   position: relative;
+   display: block;
+   margin-left:12vw;
+   margin-top: 8vh;  
+
+ }
+
+ .rabbit {
+   position: relative;
+   width: 10vw;
+   height: 20vh;
+   left: 13vw;
+   opacity: 1;
+
+
+ }
+
+ .neo {
+   position: absolute;
+   width: 40vw;
+   height: 20vh;
+   opacity:0.7;
+
+ }
+
+
 
  .right {
    display: flex;
-   justify-content: center;
    flex-direction: column;
-   align-items: center;
+ 
    background-color: rgb(0, 0, 0);
    width: 60vw;
-   color: white;
+   height: 100vh;
+   color: rgb(179, 179, 179);
    font-family: 'Josefin Slab', serif;
+   margin: 0px;
+   padding: 0px;
  }
 
- .form-info {
-  height: 40vh;
-  justify-content: center;
-}
+ .first {
+   height: 30vh;
+   display: flex;
+   align-items: flex-end;
+   justify-content: flex-start;
+   padding-left: 4%;
+   width: 60vw;
+   padding-bottom: 2%;
+ }
 
-form {
-  height: 30vh;
-}
-.end{
- height: 30vh;
-}
+ .second {
+   height: 35vh;
+
+ }
+
+ form {
+   display: flex;
+   flex-direction: row;
+   background-color: rgb(7, 7, 7);
+   width: 60vw;
+   padding-left: 4%;
+   gap: 5vw;
+   flex-flow: wrap;
+   box-shadow: 0px 10px rgb(8.5, 8.5, 8.5);
+ }
+
+ .both-divs {
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+   margin-top: 15px;
+   gap: 26px;
+
+
+ }
+
+ .divs {
+   display: flex;
+   flex-direction: column;
+   width: 13vw;
+
+
+ }
+
+ input {
+   height: 28px;
+   border-radius: 5px;
+   background-color: rgb(7, 7, 7);
+   border: 1px solid rgb(39, 39, 39);
+   color: rgb(201, 201, 201);
+ }
+
+ input:focus {
+   border: 1px solid rgb(128, 255, 134);
+ }
+
+ input:invalid {
+   border: 1px solid rgb(255, 100, 100)
+ }
+
+ .third {
+   height: 35vh;
+   padding-left: 4%;
+   width: 60vw;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   
+   
+
+
+ }
+
+ label {
+   font-size: 12px;
+ }
+
+ .second h2 {
+   padding-left: 4%;
+   margin-bottom: 0%;
+ }
+
+ #error {
+   color: rgb(255, 100, 100);
+   font-size: 11px;
+   margin-top: 1px;
+ }
+
+ button {
+   width: 200px;
+   height: 45px;
+   border: 3px solid rgb(70, 134, 73);
+   background-color: black;
+   color: rgb(70, 134, 73);
+   font-size: 15px;
+   font-weight: bold;
+   border-radius: 10px;
+   margin-top: 20px;
+   margin-bottom: 15px;
+   box-shadow: 4px 2.5px rgb(70, 134, 73);
+   
+
+ }
+
+ .third a {
+   color: rgb(70, 134, 73);
+   text-decoration: none;
+
+ }
+
+ .third p {
+   font-size: 17px
+ }
+
+ .description p {
+   color: white;
+   font-size: 14px
+ }
+
+ .description a {
+   color: rgb(129, 177, 137)
+ }

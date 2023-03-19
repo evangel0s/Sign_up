@@ -8,73 +8,78 @@
   <title>Sign-up Form</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
-
   <div class="image">
+    <div class="imglogo">
+      <img class="neo" src="maxresdefault.jpg">
+      <img class="rabbit" src=" rabbit.png  ">
+      <h2>Neo</h2>
+    </div>
+
     <div class="description">
-      <p class="img-info">Photo by Unknown</p>
-      <a href="https://wallpapersden.com/the-matrix-4k-wallpaper/3840x2160/">
-        <p class="img-info">https://wallpapersden.com/the-matrix-4k-wallpaper/3840x2160/</p>
-      </a>
+      <p>Photo by <a href="https://wallpapersden.com/the-matrix-4k-wallpaper/3840x2160/">Unknown</a> on <a
+          href="https://wallpapersden.com/the-matrix-4k-wallpaper/3840x2160/">Wallpapersden</a>
     </div>
   </div>
-
-
 
   <div class="right">
-    <div class="form-info">
-      <h1>Sign up <i>now</i> to enter the matrix.
 
+    <div class="first">
+      <h2>Sign up <i>now</i> to enter the matrix.
+        <p></p>
         <br>You <i>know</i> you want to.</br>
-      </h1>
+      </h2>
     </div>
 
 
-    <form action="">
-      <h1>Let's do this!</h1>
+    <div class="second">
+      <h2>Let's do this!</h2>
+      <form action="#" method="get">
 
-      <div class="inputs">
+        <div class="both-divs">
 
-        <div class="first-name">
-          <label for="first" class="label">FIRST NAME</label>
-          <input type="text" class="input" id="first" name="first" placeholder="First-name" required>
-        </div>
-        <div class="last-name">
-          <label for="last" class="label">LAST NAME</label>
-          <input type="text" class="input" id="last" name="last" placeholder="last-name" required>
-        </div>
-        <div class="email">
-          <label for="email" class="label">EMAIL</label>
-          <input type="email" class="input" id="email" name="email" placeholder="email" required>
-        </div>
-        <div class="phone">
-          <label for="phone" class="label">PHONE NUMBER</label>
-          <input type="tel" class="input" id="phone" name="phone" placeholder="phone" required>
-        </div>
-        <div class="password">
-          <label for="password" class="label">PASSWORD</label>
-          <input type="password" class="input" id="password" name="password" placeholder="password" required>
-        </div>
-        <div class="confirm">
-          <label for="confirm" class="label">CONFIRM PASSWORD</label>
-          <input type="password" class="input" id="confirm" name="confirm" placeholder="confirm" required>
+          <div class="divs">
+            <label for="first">FIRST NAME</label>
+            <input type="text" id="first" name="first" placeholder="First-name">
+          </div>
+          <div class="divs">
+            <label for="email">EMAIL</label>
+            <input type="email" id="email" name="email" placeholder="email">
+          </div>
+          <div class="divs">
+            <label for="password">PASSWORD</label>
+            <input type="password" id="password" name="password" placeholder="password" required>
+            <p id="error">*Passwords do not match</p>
+          </div>
         </div>
 
-      </div>
-    </form>
+        <div class="both-divs">
 
-    <script src="script.js"></script>
-    <div class="end"> 
-    <button>Create Account</button>
-    <p>Already have an acount?<span>Log in</span></p>
+          <div class="divs">
+            <label for="last">LAST NAME</label>
+            <input type="text" id="last" name="last" placeholder="last-name">
+          </div>
+          <div class="divs">
+            <label for="phone">PHONE NUMBER</label>
+            <input type="tel" id="phone" name="phone" placeholder="phone">
+          </div>
+          <div class="divs">
+            <label for="confirm">CONFIRM PASSWORD</label>
+            <input type="password" id="confirm" name="confirm" placeholder="confirm" required>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="third">
+      <button type="submit">Create Account</button>
+      <p>Already have an acount? <a href="">Log in</a></p>
     </div>
   </div>
-   
+  <script src="script.js"></script>
 </body>
 
 </html>
